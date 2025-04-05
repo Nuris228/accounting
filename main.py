@@ -2,6 +2,10 @@ from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
 from datetime import date
 from . import models, database
+from fastapi import FastAPI, Depends, HTTPException
+from sqlalchemy.orm import Session
+from datetime import date
+from . import models, database
 
 app = FastAPI()
 
@@ -42,3 +46,5 @@ if __name__ == '__main__':
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
