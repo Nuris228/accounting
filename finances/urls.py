@@ -1,5 +1,6 @@
 from django.urls import path
-import views
+from . import views
+
 
 urlpatterns = [
     path('incomes/', views.IncomeListCreateView.as_view(), name='income-list'),
